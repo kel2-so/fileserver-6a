@@ -130,7 +130,7 @@ Menampilkan pengujian dua proses backup yang dijalankan secara bersamaan. Proses
 |---|---|
 | Repository kelompok | https://github.com/kel2-so/fileserver-6a |
 | Repository fork pribadi | https://github.com/khls07/fileserver-6a |
-| Commit hash pekerjaan | [Isi commit hash] |
+| Commit hash pekerjaan | 05c52e3 |
 | Pesan commit | Implementasi Backup, Restore, Verifikasi SHA-256, dan Locking flock |
 | Status PORTOFOLIO.md | Sudah dibuat |
 

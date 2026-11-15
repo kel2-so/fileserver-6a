@@ -66,7 +66,6 @@ Menganalisis hasil pengujian untuk memastikan layanan SSH dan pembatasan akses p
 
 ### 1. Pemeriksaan Status Layanan SSH
 
-![Pemeriksaan Status SSH]
 <img width="986" height="519" alt="image" src="https://github.com/user-attachments/assets/eeefdaf5-36cd-4b30-92fc-3aa6e5f07648" />
 
 
@@ -74,7 +73,6 @@ Menampilkan hasil pemeriksaan status layanan SSH untuk memastikan layanan berjal
 
 ### 2. Pemeriksaan Konfigurasi SSH
 
-![Konfigurasi SSH]
 <img width="986" height="519" alt="image" src="https://github.com/user-attachments/assets/75a0ed85-876c-4248-b008-0b56db84add4" />
 
 
@@ -82,7 +80,6 @@ Menampilkan konfigurasi SSH yang digunakan untuk mengatur pembatasan akses pengg
 
 ### 3. Pengujian Positif: Koneksi Administrator
 
-![Pengujian SSH Administrator]
 <img width="1482" height="762" alt="Screenshot 2026-11-06 181936" src="https://github.com/user-attachments/assets/8a8c562a-4a66-4819-8902-c9b6d5b3b831" />
 
 
@@ -90,7 +87,6 @@ Menampilkan hasil pengujian ketika administrator berhasil melakukan koneksi SSH 
 
 ### 4. Pengujian Negatif: Koneksi Pengguna Tidak Diizinkan
 
-![Pengujian SSH Ditolak]
 <img width="540" height="147" alt="Screenshot 2026-11-06 192314" src="https://github.com/user-attachments/assets/61bf15e4-aea1-418a-8f5b-353824468627" />
 
 

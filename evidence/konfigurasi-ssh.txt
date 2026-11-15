@@ -1,0 +1,4 @@
+maxauthtries 3
+permitrootlogin no
+allowgroups sf_admin
+allowgroups sf_operator

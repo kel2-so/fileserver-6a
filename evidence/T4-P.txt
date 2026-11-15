@@ -1,0 +1,25 @@
+[sudo: authenticate] Password: *********         
+[0;1;32m●[0m smbd.service - Samba SMB Daemon
+     Loaded: loaded (]8;;file://ikhlas-VirtualBox/usr/lib/systemd/system/smbd.service\/usr/lib/systemd/system/smbd.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Sun 2026-11-15 18:26:05 WIB; 3h 49min ago
+ Invocation: 5f20d4b53356486986e9fd61f4dabe83
+       Docs: ]8;;man:smbd(8)\man:smbd(8)]8;;\
+             ]8;;man:samba(7)\man:samba(7)]8;;\
+             ]8;;man:smb.conf(5)\man:smb.conf(5)]8;;\
+    Process: 1360 ExecCondition=/usr/share/samba/is-configured smb (code=exited, status=0/SUCCESS)
+    Process: 1371 ExecStartPre=/usr/share/samba/update-apparmor-samba-profile (code=exited, status=0/SUCCESS)
+   Main PID: 1407 (smbd)
+     Status: "[0;1;36msmbd: ready to serve connections...[0m"
+      Tasks: 3[0;38:5:245m (limit: 1624)[0m
+     Memory: 1.6M (peak: 16.6M, swap: 6.6M, swap peak: 6.6M)
+        CPU: 4.208s
+     CGroup: /system.slice/smbd.service
+             ├─[0;38:5:245m1407 /usr/sbin/smbd --foreground --no-process-group[0m
+             ├─[0;38:5:245m1444 "smbd: notifyd" .[0m
+             └─[0;38:5:245m1445 "smbd: cleanupd "[0m
+
+Nov 15 18:26:05 ikhlas-VirtualBox systemd[1]: Starting smbd.service - Samba …...
+Nov 15 18:26:05 ikhlas-VirtualBox systemd[1]: Started smbd.service - Samba S…on.
+Hint: Some lines were ellipsized, use -l to show in full.
+Connection to localhost closed.
+exit=0

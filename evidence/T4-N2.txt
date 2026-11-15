@@ -1,0 +1,3 @@
+sudo: I'm sorry op1. I'm afraid I can't do that
+exit=1
+active

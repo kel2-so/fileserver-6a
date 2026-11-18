@@ -223,9 +223,9 @@ Screenshot menunjukkan catatan aktivitas backup dan restore serta hasil pengujia
 |---|---|
 | Repository kelompok | [https://github.com/kel2-so/fileserver-6a](https://github.com/kel2-so/fileserver-6a) |
 | Repository fork pribadi | [https://github.com/anisa-nugrahini/fileserver-6a](https://github.com/anisa-nugrahini/fileserver-6a) |
-| Commit hash pekerjaan | Belum diisi |
+| Commit hash pekerjaan | 7ef22bb |
 | Pesan commit | Implementasi Backup dan Restore |
-| Status PORTOFOLIO.md | Dalam proses penyusunan |
+| Status PORTOFOLIO.md | Sudah Selesai Dibuat |
 
 ## 7. Kendala dan Penyelesaian
 

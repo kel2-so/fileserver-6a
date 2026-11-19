@@ -1,0 +1,16 @@
+Nov 15 22:12:21 ikhlas-VirtualBox sshd-session[7790]: Accepted password for adm1 from 127.0.0.1 port 49542 ssh2
+Nov 15 22:12:21 ikhlas-VirtualBox sshd-session[7790]: pam_unix(sshd:session): session opened for user adm1(uid=1001) by adm1(uid=0)
+Nov 15 22:12:23 ikhlas-VirtualBox sshd-session[7974]: User tamu1 from 127.0.0.1 not allowed because none of user's groups are listed in AllowGroups
+Nov 15 22:12:32 ikhlas-VirtualBox unix_chkpwd[8261]: password check failed for user (tamu1)
+Nov 15 22:12:32 ikhlas-VirtualBox sshd-session[7974]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=tamu1
+Nov 15 22:12:35 ikhlas-VirtualBox sshd-session[7974]: Failed password for invalid user tamu1 from 127.0.0.1 port 60340 ssh2
+Nov 15 22:12:46 ikhlas-VirtualBox sshd-session[7974]: Failed password for invalid user tamu1 from 127.0.0.1 port 60340 ssh2
+Nov 15 22:12:58 ikhlas-VirtualBox sshd-session[7974]: Failed password for invalid user tamu1 from 127.0.0.1 port 60340 ssh2
+Nov 15 22:12:58 ikhlas-VirtualBox sshd-session[7974]: error: maximum authentication attempts exceeded for invalid user tamu1 from 127.0.0.1 port 60340 ssh2 [preauth]
+Nov 15 22:12:58 ikhlas-VirtualBox sshd-session[7974]: Disconnecting invalid user tamu1 127.0.0.1 port 60340: Too many authentication failures [preauth]
+Nov 15 22:12:58 ikhlas-VirtualBox sshd-session[7974]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=tamu1
+Nov 15 22:13:14 ikhlas-VirtualBox sshd-session[8309]: Accepted password for op1 from 127.0.0.1 port 55924 ssh2
+Nov 15 22:13:14 ikhlas-VirtualBox sshd-session[8309]: pam_unix(sshd:session): session opened for user op1(uid=1002) by op1(uid=0)
+Nov 15 22:13:15 ikhlas-VirtualBox sshd-session[8309]: pam_unix(sshd:session): session closed for user op1
+Nov 15 22:15:32 ikhlas-VirtualBox sshd-session[8879]: Accepted password for adm1 from 127.0.0.1 port 57116 ssh2
+Nov 15 22:15:32 ikhlas-VirtualBox sshd-session[8879]: pam_unix(sshd:session): session opened for user adm1(uid=1001) by adm1(uid=0)

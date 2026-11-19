@@ -1,0 +1,8 @@
+/etc/sudoers.d/sf_admin: parsed OK
+User adm1 may run the following commands on ikhlas-VirtualBox:
+    (root) /usr/local/sbin/fs-backup.sh, /usr/local/sbin/fs-restore.sh, /usr/local/sbin/fs-check.sh, /usr/local/sbin/fs-logtest.sh, /usr/bin/systemctl start smbd, /usr/bin/systemctl stop smbd, /usr/bin/systemctl status smbd, /usr/bin/systemctl status smbd --no-pager
+User op1 is not allowed to run sudo on ikhlas-VirtualBox.
+-rwxr-xr-x 1 root root 1344 Nov 15 16:52 /usr/local/sbin/fs-backup.sh
+-rwxr-xr-x 1 root root  847 Nov 15 16:52 /usr/local/sbin/fs-check.sh
+-rwxr-xr-x 1 root root  375 Nov 15 16:52 /usr/local/sbin/fs-logtest.sh
+-rwxr-xr-x 1 root root 1703 Nov 15 16:52 /usr/local/sbin/fs-restore.sh

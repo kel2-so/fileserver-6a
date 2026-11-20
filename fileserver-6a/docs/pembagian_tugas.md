@@ -1,18 +1,15 @@
-# Pembagian tugas (7 anggota) dan skenario demonstrasi
+## Pembagian Tugas Proyek 6A (Kelompok 2) — 7 Anggota
 
-> **Catatan:** panduan resmi hanya mengatur kelompok 5 atau 6 anggota. Untuk 7 anggota, konfirmasi ke dosen sebelum H-21
-> (jumlah anggota, pembagian peran, dan alokasi waktu demonstrasi ≈ 4 menit × 7 = 28 menit — ini perkiraan, bukan ketentuan resmi).
-> Anggota 1–6 mengikuti tabel panduan 6A; anggota 7 adalah tambahan usulan.
-
-| # | Nama/NIM | Tanggung jawab | Positif | Negatif | Kode / uji |
+| Anggota |Nama/NIM| Tanggung Jawab | Testing Positif | Testing Negatif | Kode / File yang Dikerjakan |
 |---|---|---|---|---|---|
-| 1 | | User, group, permission | Operator dapat menulis | Di luar grup ditolak | `setup.sh`, `t1_permission.sh` |
-| 2 | | Samba dan klien | Akun berwenang akses share | Akun tidak berwenang ditolak | `config/smb_share.conf`, `t2_samba.sh` |
-| 3 | | Hak pembaca | Pembaca dapat membaca | Ubah/hapus ditolak | ACL di `setup.sh`, `t3_reader.sh` |
-| 4 | | Administrasi SSH | Admin periksa via SSH | Akun biasa ditolak tindakan admin | `sshd_fileserver.conf`, `sudoers_sfadmin.example`, `t4_ssh_admin.sh` |
-| 5 | | Backup dan restore | Dipulihkan, isi sesuai | Backup rusak tidak dinyatakan berhasil | `backup.sh`, `restore.sh`, `t5_backup_restore.sh` |
-| 6 | | Monitoring layanan, log, laporan | Laporan layanan+backup terbentuk; CPU/memori terukur | Layanan berhenti terdeteksi; verifikasi setelah pemulihan | `check_services.sh`, `monitor.sh`, `gen_report.sh`, `t6_monitor_report.sh` |
-| 7 | | Docker + kompilasi bukti uji akses + reproduksi (README, cleanup, run_all) | Container membaca laporan | Tulis via mount read-only ditolak, checksum host sama | `docker_report.sh`, `t7_docker.sh`, `run_all.sh`, `cleanup.sh` |
+| 1 | Mario Dionisius Pake/2510512201 | User, Group, Permission | Operator dapat membuat dan menulis file | Pengguna di luar grup ditolak | `setup.sh`, `t1_permission.sh` |
+| 2 | Zahara Marchela/2510512200 | Samba Server | Samba aktif, konfigurasi valid, dan share tersedia | Akun tidak berwenang ditolak server | `config/smb_share.conf`, konfigurasi Samba, `t2_samba.sh` |
+| 3 | Fricelmo Rikar Weohawu Thalo/2510512192 | Samba Client | Klien berhasil terhubung dan mengakses share sesuai haknya | Klien tidak berwenang gagal mengakses share | Pengujian client `smbclient`, pengujian akses share |
+| 4 | Salma Kamila Arifin/2510512191 | Hak Pembaca (Reader) | Reader dapat membaca dan mengunduh file | Reader tidak dapat mengubah atau menghapus file | ACL di `setup.sh`, `t3_reader.sh` |
+| 5 | Muhammad Ikhlas Aulya/2510512198 | Administrasi SSH | Admin berhasil login dan menjalankan perintah administrasi yang diizinkan | Akun biasa ditolak untuk tindakan admin | `ssh_fileserver.conf`, `sudoers_admin.example`, `t4_ssh_admin.sh` |
+| 6 | Anisa Nugrahini/2510512182 | Backup dan Restore | Backup berhasil dibuat dan data berhasil dipulihkan | Backup rusak atau checksum tidak valid ditolak | `backup.sh`, `restore.sh`, `t5_backup_restore.sh` |
+| 7 | Dimas Dwi Surya/2510512196 | Monitoring, Log, Laporan, Docker | Monitoring berjalan, laporan terbentuk, dan Docker dapat membaca laporan | Layanan berhenti terdeteksi, Docker gagal menulis melalui mount read-only | `check_services.sh`, `monitor.sh`, `gen_report.sh`, `t6_monitor_report.sh`, `docker_report.sh`, `t7_docker.sh`, `run_all.sh`, `cleanup.sh` |
 
-Setiap anggota juga menulis bagian analisis konsep SO miliknya di laporan dan memiliki commit atas namanya sendiri (lihat matriks kontribusi di laporan).
-Analisis akses (audit) dibatasi pada bukti uji akses dan log operasional, sesuai panduan.
+### Ketentuan Kontribusi
+
+Setiap anggota wajib mengerjakan bagian sesuai tanggung jawabnya, melakukan pengujian positif dan negatif, menuliskan analisis hasil pengujian pada laporan, serta membuat commit GitHub atas kontribusinya masing-masing.

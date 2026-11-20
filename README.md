@@ -1,7 +1,34 @@
 # Server Berkas Bersama dengan Backup dan Audit Akses (6A)
 
-Proyek Akhir Sistem Operasi, kelompok [2]. Anggota: [Anisa Nugrahini 2510512182,Dimas Dwi Surya 2510512196,Fricelmo Rikar Weohawu Thalo 2510512192,Mario Dionisius Pake 2510512201,Muhammad Ikhlas Aulya 2510512198,Salma Kamila Arifin 2510512191,Zahara Marchela 2510512200].
-Lingkungan: Ubuntu Server [Ubuntu Server 25.04] pada VM; Samba [4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2.2]; OpenSSH [10.2p1 Ubuntu-2ubuntu3.8]; Docker [29.1.3] dengan image alpine:[I3.20].
+![Ubuntu](https://img.shields.io/badge/Ubuntu_Server-25.04-E95420?logo=ubuntu&logoColor=white)
+![Samba](https://img.shields.io/badge/Samba-4.23.6-blue)
+![OpenSSH](https://img.shields.io/badge/OpenSSH-10.2p1-black?logo=openssh&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-29.1.3-2496ED?logo=docker&logoColor=white)
+
+**Proyek Akhir Sistem Operasi (Kelompok 2)**
+
+## Anggota Kelompok
+
+| No. | Nama | NIM |
+|---|---|---|
+| 1 | Anisa Nugrahini | 2510512182 |
+| 2 | Dimas Dwi Surya | 2510512196 |
+| 3 | Fricelmo Rikar Weohawu Thalo | 2510512192 |
+| 4 | Mario Dionisius Pake | 2510512201 |
+| 5 | Muhammad Ikhlas Aulya | 2510512198 |
+| 6 | Salma Kamila Arifin | 2510512191 |
+| 7 | Zahara Marchela | 2510512200 |
+
+## Lingkungan Sistem
+
+| Komponen | Versi |
+|---|---|
+| Sistem Operasi | Ubuntu Server 25.04 |
+| Virtualisasi | Virtual Machine (VM) |
+| Samba | 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2.2 |
+| OpenSSH | 10.2p1 Ubuntu-2ubuntu3.8 |
+| Docker | 29.1.3 |
+| Docker Image | Alpine 3.20 |
 
 ## Instalasi (urut, di VM)
 1. `sudo apt update && sudo apt install -y samba acl openssh-server`

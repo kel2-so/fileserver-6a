@@ -8,7 +8,10 @@ Lingkungan: Windows 11 (10.0.26200.9711), klien 192.168.1.39 (Wi-Fi) -> server U
 
 Tanggal uji: 11/11/2026
 
-
+Akses Berkas:
+Test-NetConnection 192.168.110.153 -Port 445
+net use * /delete /y
+net use \\192.168.110.153\berkas /user:op1
 
 \## Hasil uji
 

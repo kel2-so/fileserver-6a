@@ -30,6 +30,12 @@
 | Docker | 29.1.3 |
 | Docker Image | Alpine 3.20 |
 
+## Dokumentasi Kontribusi Anggota
+
+Proyek Sistem Operasi ini dikerjakan secara berkelompok dengan menggunakan satu lingkungan kerja bersama. Source code utama proyek dikembangkan dan dikelola secara kolektif oleh anggota kelompok.
+
+Untuk mendokumentasikan kontribusi masing-masing anggota, setiap anggota menyusun portofolio yang berisi penjelasan pekerjaan, hasil implementasi, pengujian, serta bukti pelaksanaan tugas.
+
 ## Instalasi (urut, di VM)
 1. `sudo apt update && sudo apt install -y samba acl openssh-server`
 2. `git clone <repo> && cd proyek-6a`

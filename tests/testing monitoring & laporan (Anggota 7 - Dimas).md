@@ -282,3 +282,4 @@ output/laporan.txt: OK
 Seluruh pengujian sesuai harapan. `fs-check.sh` mendeteksi status smbd dengan benar (exit 0 saat hidup, exit 1 saat mati, dan kembali 0 setelah dipulihkan), hasil uji akses tercatat di `access-tests.log`, dan laporan berhasil dibuat. Integritas laporan terbukti: container read-only bisa membaca laporan tetapi tidak bisa mengubahnya, dan hash SHA-256 sebelum dan sesudah uji tetap sama.
 
 Satu temuan yang perlu ditindaklanjuti: verifikasi checksum backup di laporan menampilkan "GAGAL atau berkas checksum tidak ada" (lihat catatan pada langkah 3).
+

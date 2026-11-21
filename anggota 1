@@ -1,0 +1,65 @@
+mario-dionisius-pake@mario-dionisius-pake-VirtualBox:\~/Downloads/proyek-6a$ sudo -u op1 bash
+
+op1@mario-dionisius-pake-VirtualBox:/home/mario-dionisius-pake/Downloads/proyek-6a$ echo "Dokumen dibuat oleh operator" > /srv/fileserver/share/t1.txt
+
+op1@mario-dionisius-pake-VirtualBox:/home/mario-dionisius-pake/Downloads/proyek-6a$ cat /srv/fileserver/share/t1.txt
+
+Dokumen dibuat oleh operator
+
+op1@mario-dionisius-pake-VirtualBox:/home/mario-dionisius-pake/Downloads/proyek-6a$ exit
+
+exit
+
+mario-dionisius-pake@mario-dionisius-pake-VirtualBox:\~/Downloads/proyek-6a$ sudo -u tamu1 touch /srv/fileserver/share/t2.txt
+
+touch: setting times of '/srv/fileserver/share/t2.txt': Permission denied
+
+mario-dionisius-pake@mario-dionisius-pake-VirtualBox:\~/Downloads/proyek-6a$ sudo ls -l /srv/fileserver/share/
+
+total 28
+
+\-rwxrwx---+ 1 op1  op1          0 Nov  6 17:08 'New Text Document.txt'
+
+\-rwxrwx---+ 1 op1  op1         16 Nov  6 14:02  dokumen2.txt
+
+\-rwxrwx---+ 1 op1  op1         16 Nov  6 14:02  dokumen3.txt
+
+\-rwxrwx---+ 1 op1  op1         23 Nov  7 00:18  dokumen\_1.txt
+
+\-rw-rw----+ 1 op1  sf\_operator 29 Nov 18 13:22  t1.txt
+
+\-rw-rw----+ 1 root sf\_operator 35 Nov 15 05:44  t2.txt
+
+\-rw-rw----+ 1 op1  sf\_operator  0 Nov 14 18:46  uji\_operator.txt
+
+mario-dionisius-pake@mario-dionisius-pake-VirtualBox:\~/Downloads/proyek-6a$ sudo getfacl /srv/fileserver/share/
+
+getfacl: Removing leading '/' from absolute path names
+
+\# file: srv/fileserver/share/
+
+\# owner: root
+
+\# group: sf\_operator
+
+\# flags: -s-
+
+user::rwx
+
+group::rwx
+
+group:sf\_reader:r-x
+
+mask::rwx
+
+other::---
+
+default:user::rwx
+
+default:group::rwx
+
+default:group:sf\_reader:r-x
+
+default:mask::rwx
+
+default:other::---
